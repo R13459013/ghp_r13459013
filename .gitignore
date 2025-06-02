@@ -47,3 +47,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+*.csv
+ rm --cached dengue_assignment.csv
+ echo "*.csv" >> .gitignore
+ 
