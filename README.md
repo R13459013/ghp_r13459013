@@ -8,3 +8,4 @@ total_cases_2014 <- df %>%
 +     summarise(total = sum(case_number, na.rm = TRUE)) %>%
 +     pull(total)
 cat("Nombre total de cas de dengue en 2014 :", total_cases_2014, "\n")
+
